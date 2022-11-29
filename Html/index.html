@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>BCT</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="/img/logo.png">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h2>Breast Cancer Prediction Program</h2>
+<div class="container" id="container">
+	<div class="form-container sign-up-container">
+		<form action="#">
+			<h1>Results</h1>
+			<span>You have 50% chance to develop breast cancer in the next 10 years</span>
+			<br>
+			<p>Warning 1</p>
+			<p>Warning 2</p>
+			<p>Warning 3</p>
+			<p>Warning 4</p>
+		</form>
+	</div>
+	<div class="form-container sign-in-container">
+		<form action="#">
+			<input type="text" placeholder="Radius" />
+			<input type="text" placeholder="Texture" />
+			<input type="text" placeholder="Perimeter" />
+			<input type="text" placeholder="Smoothness" />
+			<input type="text" placeholder="Compactness" />
+			<input type="text" placeholder="Concavity" />
+			<input type="text" placeholder="Concave points" />
+			<input type="text" placeholder="Symmetry" />
+			<input type="text" placeholder="Fractal" />
+		</form>
+	</div>
+	<div class="overlay-container">
+		<div class="overlay">
+			<div class="overlay-panel overlay-left">
+				<h1>You have a risky profile</h1>
+				<p>Please refer to the results panel</p>
+				<button class="ghost" id="signIn">Go back</button>
+			</div>
+			<div class="overlay-panel overlay-right">
+				<h1>Enter all informations</h1>
+				<p>And click below to generate your profile report</p>
+				<button class="ghost" id="signUp">Calculate</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<p>
+		Created with <i class="fa fa-heart"></i> by
+		<a target="_blank" href="https://github.com/kurepu06/Breast_Cancer_prediction">LesRatsDeDCU</a>
+	</p>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
