@@ -4,4 +4,4 @@ Make sure to have python or python3 for start the program.
 
 ###### Start the interface
 
-python3 streamlit run heartDiseasesInterface.py
+python3 -m streamlit run HeartFailureInterface.py

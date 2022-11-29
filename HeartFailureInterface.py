@@ -26,9 +26,7 @@ This app predicts the likelihood of a person having an **Heart Attack** .
 st.sidebar.header('User Medical Records')
 
 st.header('**Notice!**')
-st.write("""Uploaded File Must be in CSV format comprising of 11 Columns,
-            with Column Names in the Following order.
-
+st.write("""
             1. age
             2. sex
             3. cp
